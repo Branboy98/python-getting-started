@@ -4,8 +4,8 @@ from django.template.loader import render_to_string
 from django.shortcuts import render,HttpResponse
 
 def index(request):
-    return HttpResponse("<h1> Innovators For Purpose </h1>"
-                        "<br/><p> Hello, world! </p>")
+    return HttpResponse("<h1> Innovators For Branden </h1>"
+                        "<br/><p> Hello, Bill! </p>")
 
 def about(request):
     result = """<h1> This is the 'About' page </h1>
